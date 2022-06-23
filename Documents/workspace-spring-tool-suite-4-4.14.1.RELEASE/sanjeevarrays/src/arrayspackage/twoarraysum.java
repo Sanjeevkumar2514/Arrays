@@ -15,5 +15,4 @@ public class twoarraysum {
 		System.out.print(array3+",");
 		System.out.print("}");
 	}
-
 }
