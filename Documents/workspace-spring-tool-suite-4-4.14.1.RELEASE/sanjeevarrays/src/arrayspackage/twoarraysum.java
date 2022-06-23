@@ -9,13 +9,10 @@ public class twoarraysum {
 
 		for(int i=0;i<=array1.length-1;i++)
 		{
-			array3[i]=array1[i]+array2[i];
+			array3=array1[i]+array2[i];
 		}
-		System.out.print("array3[j]={");
-		for( int j=0;j<=array3.length-1;j++)
-		{
-				System.out.print(array3[j]+",");
-		}
+		System.out.print("array3={");
+		System.out.print(array3+",");
 		System.out.print("}");
 	}
 
